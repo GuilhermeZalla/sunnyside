@@ -112,4 +112,4 @@ This is where you can give a hat tip to anyone who helped you out on this projec
 
 **Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
 
-Link to the site: (Sunnyside agency landing page)[https://sunnyside-gz.netlify.app/]
+Link to the site: [Sunnyside agency landing page][https://sunnyside-gz.netlify.app/)
