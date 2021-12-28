@@ -112,7 +112,6 @@ a {
 @media screen and (min-width: 601px) and (max-width: 900px) {
     .sunnyside-about {
         grid-template-areas: 'box2 box2' 'box1 box1' 'box3 box3' 'box4 box4' 'box5 box5' 'box6 box6';
-        grid-template-rows: 500px;
     }
     .sunnyside__pictures {
         grid-template-columns: repeat(2, 1fr);
