@@ -397,6 +397,7 @@ a {
 @media screen and (min-width: 601px) and (max-width: 900px) {
     .box5 {
         background-image: url(/images/mobile/image-graphic-design.jpg);
+        
     }
     .box6 {
         background-image: url(/images/mobile/image-photography.jpg);
@@ -482,7 +483,7 @@ a {
     max-width: 100%;
     min-height: 100%;
     min-width: 100%;
-    max-width: 100%;
+    max-height: 100%;
     object-fit: cover;
 }
 
