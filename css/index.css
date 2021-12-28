@@ -323,7 +323,7 @@ a {
 
 @media screen and (max-width: 900px) {
     .sunnyside__text {
-        padding: 8rem 5rem;
+         padding: 300px 100px;
         text-align: center;
     }
 }
