@@ -328,9 +328,16 @@ a {
     width: 100%;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 600px) {
     .sunnyside__text {
         padding: 50px 100px;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 900px) {
+    .sunnyside__text {
+        padding: 300px 100px;
         text-align: center;
     }
 }
