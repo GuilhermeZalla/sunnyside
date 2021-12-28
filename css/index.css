@@ -236,9 +236,9 @@ a {
     .sunnyside__header {
         grid-area: header;
         background: url(/images/mobile/image-header.jpg);
-        background-size: contain;
+        background-size: 100% 100%;
         background-repeat: no-repeat;
-        height: 600px;
+        height: 620px;
         position: relative;
     }
     .sunnyside__header .sunnyside__title {
