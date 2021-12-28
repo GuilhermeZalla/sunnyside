@@ -238,14 +238,36 @@ a {
     border-bottom: 3px solid var(--clr-secondary);
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 600px) {
     .sunnyside__header {
-        grid-area: header;
         background: url(/images/mobile/image-header.jpg);
-        background-size: 100% 100%;
-        background-repeat: no-repeat;
         height: 620px;
-        position: relative;
+    }
+    .sunnyside__header .sunnyside__title {
+        margin-top: 15%;
+        font-size: 3rem;
+    }
+    .sunnyside__list {
+        display: none;
+    }
+    .sunnyside__header>img {
+        position: absolute;
+        left: 49.5%;
+        bottom: 25%;
+    }
+    .sunnyside__dropdown-menu-link {
+        display: inline-block;
+    }
+    .sunnyside__hidden-menu {
+        width: 350px;
+        height: 310px;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 900px) {
+    .sunnyside__header {
+        background: url(/images/mobile/image-header.jpg);
+        height: 620px;
     }
     .sunnyside__header .sunnyside__title {
         margin-top: 15%;
@@ -273,7 +295,6 @@ a {
         margin-top: 5%;
     }
 }
-
 
 /**************/
 
