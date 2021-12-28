@@ -323,9 +323,14 @@ a {
     background-color: var(--clr-primary);
 }
 
+.box2 img,
+.box3 img {
+    width: 100%;
+}
+
 @media screen and (max-width: 900px) {
     .sunnyside__text {
-        padding: 300px 100px;
+        padding: 50px 100px;
         text-align: center;
     }
 }
