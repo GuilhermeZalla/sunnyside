@@ -241,6 +241,8 @@ a {
 @media screen and (max-width: 600px) {
     .sunnyside__header {
         background: url(/images/mobile/image-header.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
         height: 620px;
     }
     .sunnyside__header .sunnyside__title {
@@ -259,8 +261,11 @@ a {
         display: inline-block;
     }
     .sunnyside__hidden-menu {
-        width: 350px;
+        width: 340px;
         height: 310px;
+    }
+    .sunnyside-hidden-menu__list li+li {
+        margin: 35px 0;
     }
 }
 
