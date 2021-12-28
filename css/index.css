@@ -340,6 +340,9 @@ a {
         padding: 300px 100px;
         text-align: center;
     }
+    .box1 .sunnyside__text {
+        padding-top: 200px;
+    }
 }
 
 
