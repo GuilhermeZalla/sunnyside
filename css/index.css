@@ -377,7 +377,7 @@ a {
     padding: 22rem 10rem 0 10rem;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 600px) {
     .box5 {
         background-image: url(/images/mobile/image-graphic-design.jpg);
     }
@@ -390,13 +390,25 @@ a {
     }
 }
 
+@media screen and (min-width: 601px) and (max-width: 900px) {
+    .box5 {
+        background-image: url(/images/mobile/image-graphic-design.jpg);
+    }
+    .box6 {
+        background-image: url(/images/mobile/image-photography.jpg);
+    }
+    .box5>.sunnyside__text,
+    .box6>.sunnyside__text {
+        padding: 50rem 2rem 0 2rem;
+    }
+}
+
 @media screen and (min-width: 1800px) {
     .box5>.sunnyside__text,
     .box6>.sunnyside__text {
         padding: 27rem 2rem 0 2rem;
     }
 }
-
 
 /**************/
 
