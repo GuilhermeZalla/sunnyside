@@ -117,7 +117,7 @@ a {
     }
     .sunnyside__pictures {
         grid-template-columns: repeat(2, 1fr);
-        grid-auto-rows: 240px;
+        grid-auto-rows: 100px;
     }
 }
 
@@ -327,7 +327,7 @@ a {
 
 @media screen and (max-width: 900px) {
     .sunnyside__text {
-        padding: 50% 50px;
+        padding: 2rem 0;
         text-align: center;
     }
 }
