@@ -490,6 +490,7 @@ a {
 @media screen and (max-width: 600px) {
     .sunnyside__gallery img {
         max-height: 50%;
+        min-height: 50%;
     }
 }
 
