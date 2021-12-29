@@ -14,10 +14,10 @@
 /* 1. Gerais
 /* 2. Container
 /* 3. Header
-/* 4. Main - Sunnyside About
-/* 5. Main - Sunnyside Services
-/* 6. Section - Testimonials
-/* 7. Section - Gallery
+/* 4. Sunnyside About
+/* 5. Sunnyside Services
+/* 6. Testimonials
+/* 7. Gallery
 /* 8. Footer
 /**************/
 
@@ -128,6 +128,12 @@ a {
 @media screen and (min-width: 1800px) {
     .sunnyside__pictures {
         grid-auto-rows: 590px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .sunnyside__pictures {
+        grid-auto-rows: 210px;
     }
 }
 
@@ -303,6 +309,7 @@ a {
     }
 }
 
+
 /**************/
 
 
@@ -372,7 +379,7 @@ a {
         padding: 50px 100px;
         text-align: center;
     }
-     .box1 .sunnyside__text {
+    .box1 .sunnyside__text {
         padding-top: 10px;
     }
 }
@@ -432,7 +439,6 @@ a {
 @media screen and (min-width: 601px) and (max-width: 900px) {
     .box5 {
         background-image: url(/images/mobile/image-graphic-design.jpg);
-        
     }
     .box6 {
         background-image: url(/images/mobile/image-photography.jpg);
@@ -450,10 +456,11 @@ a {
     }
 }
 
+
 /**************/
 
 
-/* 6. Section - Testimonials
+/* 6. Testimonials
 /**************/
 
 .sunnyside__testimonials {
@@ -511,7 +518,7 @@ a {
 /**************/
 
 
-/* 7. Section - Gallery
+/* 7. Gallery
 /**************/
 
 .sunnyside__gallery img {
@@ -521,6 +528,7 @@ a {
     max-height: 100%;
     object-fit: cover;
 }
+
 
 /* 8. Foooter
 /**************/
